@@ -3,7 +3,7 @@ import Info from "./Info";
 
 describe("Given an Info component", () => {
   describe("When rendered", () => {
-    test("Then it should show the text 'Calling...", () => {
+    test("Then it should show the text 'Calling...'", () => {
       const expectedText = "Calling...";
 
       render(<Info />);
